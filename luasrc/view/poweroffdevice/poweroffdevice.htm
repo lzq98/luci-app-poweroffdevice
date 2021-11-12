@@ -9,11 +9,8 @@
 
 <p><%:Turn off the power to the device you are using%></p>
 
-<br />
-
 <%- local c = require("luci.model.uci").cursor():changes(); if c and next(c) then -%>
 	<p class="alert-message warning"><%:Warning: There are unsaved changes that will get lost on reboot!%></p>
-	<br />
 <%- end -%>
 
 <p class="alert-message warning"><%:WARNING: Power off might result in a reboot on a device which not support power off.%></p>
