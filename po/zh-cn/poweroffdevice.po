@@ -26,3 +26,6 @@ msgstr "正在关机..."
 
 msgid "Device shutdown complete!"
 msgstr "设备已关机!"
+
+msgid "Warning: There are unsaved changes that will get lost on reboot!"
+msgstr "警告：一些未保存的配置将在重启后丢失！"
