@@ -19,13 +19,10 @@ msgid "WARNING: Power off might result in a reboot on a device which not support
 msgstr "警告：对于不支持关机的设备，关机可能会导致重新启动." 
 
 msgid "Device unreachable"
-msgstr "操作设备无效"
+msgstr "无法访问设备"
 
 msgid "Shutting Down..."
 msgstr "正在关机..."
 
 msgid "Device shutdown complete!"
-msgstr "设备关机完毕!"
-
-
-
+msgstr "设备已关机!"
